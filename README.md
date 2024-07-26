@@ -63,4 +63,3 @@ This guide provides step-by-step instructions to connect and configure your ADW3
 2. **Set Parameters**:
    - Enter IP or domain name, port number, upload interval, country, UTC, serial number (14-bit code), QOS (set to 1), and datanum (set to 43).
 
-Following these steps should help you set up your ADW300-WIFI energy meter successfully. If you encounter issues, refer to the debugging process outlined in the PDF document.
