@@ -16,9 +16,9 @@ The ADW300 Energy Meter uses MQTT to report data. This guide covers the necessar
 ## Components Needed
 - ADW300 Energy Meter
 - WiFi Network
-- MQTT Broker (e.g., Mosquitto)
+- MQTT Broker ( we will use the RPI (
 - Computer with Python installed
-- MQTT client library for Python (e.g., Paho MQTT)
+- MQTT client library for Python 
 
 ## Setting up the WiFi
 1. Power on the ADW300 Energy Meter.
@@ -57,6 +57,9 @@ MQTT topics follow the format:
 
 ```bash
 platform/acrel/meter/json-v2/analog/0000
+
+or
+Nymea,/acrel/energy-meter/analogue/0000
 ```
 
 
